@@ -33,8 +33,7 @@ let slideShow = {
     }, 2000);
   },
   pause: function () {
-    var self = this;
-    clearInterval(self.playInterval);
+    clearInterval(this.playInterval);
   }
 }
 
